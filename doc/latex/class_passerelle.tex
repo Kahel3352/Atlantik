@@ -1,0 +1,73 @@
+\hypertarget{class_passerelle}{\section{Passerelle Class Reference}
+\label{class_passerelle}\index{Passerelle@{Passerelle}}
+}
+
+
+Fait le lien entre le programme est la base de données.  
+
+
+
+
+{\ttfamily \#include $<$passerelle.\-h$>$}
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_passerelle_a3998dce0a06ca8cfe2ef3f4db05fce9c}{static void \hyperlink{class_passerelle_a3998dce0a06ca8cfe2ef3f4db05fce9c}{set\-Database} ()}\label{class_passerelle_a3998dce0a06ca8cfe2ef3f4db05fce9c}
+
+\begin{DoxyCompactList}\small\item\em Initialise la base de données. \end{DoxyCompactList}\item 
+static vector$<$ \hyperlink{class_equipement}{Equipement} $>$ \hyperlink{class_passerelle_af915f404b5bc365e3b64b14ec50d9a65}{charger\-Les\-Equipements} (int un\-Id\-Bateau)
+\begin{DoxyCompactList}\small\item\em Retourne la liste des équippements pour un bateau. \end{DoxyCompactList}\item 
+static vector$<$ \hyperlink{class_bateau_voyageur}{Bateau\-Voyageur} $>$ \hyperlink{class_passerelle_ab3785749561d6b2d334521490c15eb31}{charger\-Les\-Bateaux\-Voyageurs} ()
+\begin{DoxyCompactList}\small\item\em Retourne la liste des bateaux voyageurs de la base de données. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_passerelle_ac7ec28a544613adf6422c1afdbf8f503}{static Q\-Sql\-Database \hyperlink{class_passerelle_ac7ec28a544613adf6422c1afdbf8f503}{db}}\label{class_passerelle_ac7ec28a544613adf6422c1afdbf8f503}
+
+\begin{DoxyCompactList}\small\item\em Base de données. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fait le lien entre le programme est la base de données. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_passerelle_ab3785749561d6b2d334521490c15eb31}{\index{Passerelle@{Passerelle}!charger\-Les\-Bateaux\-Voyageurs@{charger\-Les\-Bateaux\-Voyageurs}}
+\index{charger\-Les\-Bateaux\-Voyageurs@{charger\-Les\-Bateaux\-Voyageurs}!Passerelle@{Passerelle}}
+\subsubsection[{charger\-Les\-Bateaux\-Voyageurs}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Bateau\-Voyageur} $>$ Passerelle\-::charger\-Les\-Bateaux\-Voyageurs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_passerelle_ab3785749561d6b2d334521490c15eb31}
+
+
+Retourne la liste des bateaux voyageurs de la base de données. 
+
+\begin{DoxyReturn}{Returns}
+Collection de \hyperlink{class_bateau_voyageur}{Bateau\-Voyageur} 
+\end{DoxyReturn}
+\hypertarget{class_passerelle_af915f404b5bc365e3b64b14ec50d9a65}{\index{Passerelle@{Passerelle}!charger\-Les\-Equipements@{charger\-Les\-Equipements}}
+\index{charger\-Les\-Equipements@{charger\-Les\-Equipements}!Passerelle@{Passerelle}}
+\subsubsection[{charger\-Les\-Equipements}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Equipement} $>$ Passerelle\-::charger\-Les\-Equipements (
+\begin{DoxyParamCaption}
+\item[{int}]{un\-Id\-Bateau}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_passerelle_af915f404b5bc365e3b64b14ec50d9a65}
+
+
+Retourne la liste des équippements pour un bateau. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Id} & du bateau \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Collection d'\hyperlink{class_equipement}{Equipement} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+passerelle.\-h\item 
+passerelle.\-cpp\end{DoxyCompactItemize}
